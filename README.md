@@ -101,23 +101,29 @@ Use **Postman** or **Thunder Client** to test the API routes. Ensure the backend
   ```json
   {
     "name": "John Doe",
-    "email": "john@example.com",
+    "email": "john@example.in",
     "password": "password123"
   }
   ```
+![Register](image.png)
+
 
 #### **2. Login and Get JWT Token**
 - **Endpoint**: `POST /api/auth/login`
 - **Body**:
   ```json
   {
-    "email": "john@example.com",
+    "email": "john@example.in",
     "password": "password123"
   }
   ```
+![Login](image-1.png)
+
 
 #### **3. Fetch All Products**
 - **Endpoint**: `GET /api/products`
+![All products](image-2.png)
+
 
 #### **4. Add a Product to Cart**
 - **Endpoint**: `POST /api/cart`
@@ -128,11 +134,11 @@ Use **Postman** or **Thunder Client** to test the API routes. Ensure the backend
 - **Body**:
   ```json
   {
-    "productId": "12345",
+    "productId": "674042c2a2f276068a9313fc",
     "quantity": 2
   }
   ```
-
+![Add product to cart](image-3.png)
 ---
 
 ## **Folder Structure**
